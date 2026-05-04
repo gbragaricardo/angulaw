@@ -1,0 +1,72 @@
+{
+  "assignments": [
+    {
+      "id": "1",
+      "title": "Contestação Trabalhista",
+      "lawsuitNumber": "0012345-67.2024.8.13.0001",
+      "deadline": "2026-05-21T23:59:59Z",
+      "priority": "ALTA",
+      "status": "PENDENTE",
+      "description": "Elaborar defesa com foco nas horas extras reclamadas."
+    },
+    {
+      "id": "2",
+      "title": "Juntar Procuração e Contrato Social",
+      "lawsuitNumber": "0045678-90.2025.8.13.0002",
+      "deadline": "2026-05-25T18:00:00Z",
+      "priority": "BAIXA",
+      "status": "PENDENTE"
+    }
+  ],
+  "clients": [
+    {
+      "id": "c1",
+      "name": "Empresa Alfa LTDA",
+      "cpfCnpj": "12.345.678/0001-99",
+      "phoneNumber": "31988887777",
+      "email": "juridico@alfa.com"
+    },
+    {
+      "id": "c2",
+      "name": "João da Silva",
+      "cpfCnpj": "111.222.333-44",
+      "phoneNumber": "31999990000",
+      "email": "joao.silva@email.com"
+    }
+  ],
+  "hearings": [
+    {
+      "id": "h1",
+      "lawsuitNumber": "0012345-67.2024.8.13.0001",
+      "clientName": "Empresa Alfa LTDA",
+      "dateHour": "2026-05-20T14:30:00Z",
+      "local": "3ª Vara do Trabalho de BH",
+      "status": "AGENDADA",
+      "meetLink": "https://teams.microsoft.com/l/meetup-join/exemplo123"
+    },
+    {
+      "id": "h2",
+      "lawsuitNumber": "0099887-66.2023.8.13.0005",
+      "clientName": "João da Silva",
+      "dateHour": "2026-06-10T09:00:00Z",
+      "local": "Fórum Lafayette - 5ª Vara Cível",
+      "status": "AGENDADA"
+    }
+  ],
+  "lawsuits": [
+    {
+      "id": "l1",
+      "number": "0012345-67.2024.8.13.0001",
+      "clientId": "c1",
+      "court": "3ª Vara do Trabalho de BH",
+      "matter": "Reclamação Trabalhista"
+    },
+    {
+      "id": "l2",
+      "number": "0045678-90.2025.8.13.0002",
+      "clientId": "c1",
+      "court": "1ª Vara Cível",
+      "matter": "Cobrança Indevida"
+    }
+  ]
+}
