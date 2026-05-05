@@ -8,11 +8,13 @@ import { AssignmentService } from '../../services/assignment.service';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './dashboard.component.html',
-  styleUrl: './dashboard.component.scss'
+  styleUrl: './dashboard.component.css'
 })
 export class DashboardComponent implements OnInit{
 
   assignments: Assignment[] = [];
+
+  displayedColumns: string[] = ['title', 'lawsuitNumber', 'client', 'deadline'];
 
   constructor(private assignmentService: AssignmentService) { }
 
